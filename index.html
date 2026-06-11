@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
@@ -10,30 +11,39 @@
 <link rel="stylesheet" href="style.css">
 
 <link
+rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-rel="stylesheet">
+/>
 
 </head>
 
 <body>
 
+<!-- ========================= -->
 <!-- NAVBAR -->
+<!-- ========================= -->
 
-<nav class="navbar">
+<header class="navbar">
 
     <div class="logo">
-        Aaditya.
+        Aaditya Anand
     </div>
 
-    <ul class="nav-links">
+    <nav class="nav-links">
 
-        <li><a href="#home">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <a href="#home">Home</a>
 
-    </ul>
+        <a href="#about">About</a>
+
+        <a href="#work">Work</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#journey">Journey</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
 
     <button id="theme-toggle">
 
@@ -41,59 +51,382 @@ rel="stylesheet">
 
     </button>
 
-</nav>
+</header>
 
+<!-- ========================= -->
 <!-- HERO -->
+<!-- ========================= -->
 
 <section id="home" class="hero">
 
-    <div class="hero-left">
+    <div class="hero-content">
 
-        <p class="hero-tag">
-            COMPUTER SCIENCE ENGINEER
-        </p>
+        <div class="hero-left">
 
-        <h1>
-            Aaditya
-            <span>Anand</span>
-        </h1>
+            <span class="hero-tag">
+
+                COMPUTER SCIENCE ENGINEER
+
+            </span>
+
+            <h1>
+
+                Aaditya
+                <span>Anand</span>
+
+            </h1>
+
+            <h2>
+
+                Full Stack Developer
+                & Problem Solver
+
+            </h2>
+
+            <p>
+
+                Building secure, scalable and
+                impactful digital experiences
+                through software engineering,
+                cybersecurity and modern web
+                technologies.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a
+                href="assets/resume.pdf"
+                download
+                class="primary-btn">
+
+                Download Resume
+
+                </a>
+
+                <a
+                href="https://github.com/aaditya-anand-singh"
+                target="_blank"
+                class="secondary-btn">
+
+                GitHub
+
+                </a>
+
+                <a
+                href="https://www.linkedin.com/in/aaditya-anand-singh/"
+                target="_blank"
+                class="secondary-btn">
+
+                LinkedIn
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+            <div class="profile-wrapper">
+
+                <div class="profile-ring"></div>
+
+                <img
+                src="assets/profile.jpg"
+                alt="Aaditya Anand">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- ABOUT -->
+<!-- ========================= -->
+
+<section id="about" class="about">
+
+    <div class="section-title">
+
+        <span>
+            ABOUT ME
+        </span>
 
         <h2>
-            Full Stack Developer
+
+            Passionate About Building
+            Secure and Innovative
+            Software Solutions.
+
         </h2>
 
-        <p class="hero-description">
+    </div>
 
-            Building secure, scalable and
-            user-focused software solutions
-            through modern web development
-            and problem solving.
+    <div class="about-grid">
+
+        <div class="about-card">
+
+            <h3>
+                Education
+            </h3>
+
+            <p>
+
+                Bachelor of Engineering
+                in Computer Science &
+                Engineering at
+                Chandigarh University.
+
+            </p>
+
+        </div>
+
+        <div class="about-card">
+
+            <h3>
+                Interests
+            </h3>
+
+            <p>
+
+                Full Stack Development,
+                Cybersecurity,
+                Real-Time Systems,
+                Artificial Intelligence.
+
+            </p>
+
+        </div>
+
+        <div class="about-card">
+
+            <h3>
+                Goal
+            </h3>
+
+            <p>
+
+                To contribute to
+                innovative products
+                while continuously
+                growing as a software
+                engineer.
+
+            </p>
+
+        </div>
+
+        <div class="about-card stats-card">
+
+            <div>
+
+                <h4>8.63</h4>
+                <span>CGPA</span>
+
+            </div>
+
+            <div>
+
+                <h4>3+</h4>
+                <span>Projects</span>
+
+            </div>
+
+            <div>
+
+                <h4>4+</h4>
+                <span>Certificates</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- NEXT SECTION STARTS HERE -->
+
+<section
+id="work"
+class="featured-work">
+<div class="section-title">
+
+    <span>
+        SELECTED WORK
+    </span>
+
+    <h2>
+        Featured Projects
+    </h2>
+
+</div>
+
+<!-- ========================= -->
+<!-- PROJECT 1 -->
+<!-- ========================= -->
+
+<div class="project-showcase">
+
+    <div class="project-content">
+
+        <span class="project-number">
+            01
+        </span>
+
+        <h3>
+            Secure Real-Time
+            Chat Application
+        </h3>
+
+        <p>
+
+            Developed a secure messaging
+            platform enabling real-time
+            communication through
+            encrypted room-based chats.
 
         </p>
 
-        <div class="hero-buttons">
+        <div class="feature-list">
 
-            <a href="assets/resume.pdf"
-               class="primary-btn"
-               download>
+            <span>
+                Real-Time Messaging
+            </span>
 
-               Resume
+            <span>
+                Socket.IO
+            </span>
+
+            <span>
+                MongoDB
+            </span>
+
+            <span>
+                End-to-End Security
+            </span>
+
+        </div>
+
+        <div class="project-buttons">
+
+            <a href="#"
+               class="project-btn primary">
+
+               View Project
 
             </a>
 
             <a href="https://github.com/aaditya-anand-singh"
                target="_blank"
-               class="secondary-btn">
+               class="project-btn">
 
                GitHub
 
             </a>
 
-            <a href="https://www.linkedin.com/in/aaditya-anand-singh/"
-               target="_blank"
-               class="secondary-btn">
+        </div>
 
-               LinkedIn
+    </div>
+
+    <div class="project-visual">
+
+        <div class="chat-preview">
+
+            <div class="chat-top">
+
+                🔒 Secure Room
+
+            </div>
+
+            <div class="bubble left">
+
+                Aaditya:
+                Hello Team
+
+            </div>
+
+            <div class="bubble right">
+
+                Encryption Active
+
+            </div>
+
+            <div class="bubble left">
+
+                Message Delivered ✓
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ========================= -->
+<!-- PROJECT 2 -->
+<!-- ========================= -->
+
+<div class="project-showcase reverse">
+
+    <div class="project-content">
+
+        <span class="project-number">
+            02
+        </span>
+
+        <h3>
+            Spotify Clone
+        </h3>
+
+        <p>
+
+            Created a modern music
+            streaming interface featuring
+            playlist navigation, playback
+            controls and responsive design.
+
+        </p>
+
+        <div class="feature-list">
+
+            <span>
+                Responsive UI
+            </span>
+
+            <span>
+                Music Controls
+            </span>
+
+            <span>
+                JavaScript
+            </span>
+
+            <span>
+                Modern Design
+            </span>
+
+        </div>
+
+        <div class="project-buttons">
+
+            <a href="#"
+               class="project-btn primary">
+
+               View Project
+
+            </a>
+
+            <a href="https://github.com/aaditya-anand-singh"
+               target="_blank"
+               class="project-btn">
+
+               GitHub
 
             </a>
 
@@ -101,15 +434,333 @@ rel="stylesheet">
 
     </div>
 
-    <div class="hero-right">
+    <div class="project-visual">
 
-        <div class="profile-container">
+        <div class="music-preview">
 
-            <div class="glow-ring"></div>
+            <div class="album-cover">
 
-            <img
-            src="assets/profile.jpg"
-            alt="Aaditya Anand">
+                ♪
+
+            </div>
+
+            <h4>
+                Now Playing
+            </h4>
+
+            <p>
+                Sample Track
+            </p>
+
+            <div class="progress-bar">
+
+                <div class="progress-fill"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ========================= -->
+<!-- PROJECT 3 -->
+<!-- ========================= -->
+
+<div class="project-showcase">
+
+    <div class="project-content">
+
+        <span class="project-number">
+            03
+        </span>
+
+        <h3>
+            Obstacle Detection
+            Vehicle
+        </h3>
+
+        <p>
+
+            Built an Arduino-powered
+            autonomous vehicle capable
+            of detecting obstacles and
+            responding instantly using
+            ultrasonic sensors.
+
+        </p>
+
+        <div class="feature-list">
+
+            <span>
+                Arduino
+            </span>
+
+            <span>
+                Sensors
+            </span>
+
+            <span>
+                Automation
+            </span>
+
+            <span>
+                C++
+            </span>
+
+        </div>
+
+        <div class="project-buttons">
+
+            <a href="#"
+               class="project-btn primary">
+
+               View Project
+
+            </a>
+
+            <a href="https://github.com/aaditya-anand-singh"
+               target="_blank"
+               class="project-btn">
+
+               GitHub
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="project-visual">
+
+        <div class="sensor-preview">
+
+            <div class="radar-circle"></div>
+
+            <div class="distance">
+
+                15cm
+
+            </div>
+
+            <p>
+
+                Obstacle Detected
+
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- NEXT SECTION -->
+
+<section
+id="skills"
+class="skills">
+<div class="section-title">
+
+    <span>
+        TECH STACK
+    </span>
+
+    <h2>
+        Skills & Expertise
+    </h2>
+
+</div>
+
+<div class="skills-grid">
+
+    <div class="skill-category">
+
+        <h3>
+            Frontend
+        </h3>
+
+        <div class="skill-tags">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Responsive Design</span>
+
+        </div>
+
+    </div>
+
+    <div class="skill-category">
+
+        <h3>
+            Backend
+        </h3>
+
+        <div class="skill-tags">
+
+            <span>Node.js</span>
+            <span>Socket.IO</span>
+            <span>REST APIs</span>
+
+        </div>
+
+    </div>
+
+    <div class="skill-category">
+
+        <h3>
+            Database
+        </h3>
+
+        <div class="skill-tags">
+
+            <span>MongoDB</span>
+            <span>MySQL</span>
+
+        </div>
+
+    </div>
+
+    <div class="skill-category">
+
+        <h3>
+            Programming
+        </h3>
+
+        <div class="skill-tags">
+
+            <span>C++</span>
+            <span>C</span>
+            <span>Python</span>
+            <span>Java</span>
+
+        </div>
+
+    </div>
+
+    <div class="skill-category">
+
+        <h3>
+            Tools
+        </h3>
+
+        <div class="skill-tags">
+
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>VS Code</span>
+
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- JOURNEY -->
+<!-- ========================= -->
+
+<section id="journey" class="journey">
+
+    <div class="section-title">
+
+        <span>
+            MY JOURNEY
+        </span>
+
+        <h2>
+            Education & Growth
+        </h2>
+
+    </div>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">
+                2022
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>
+                    CBSE Senior Secondary
+                </h3>
+
+                <p>
+                    Scored 90.2%
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">
+                2023
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>
+                    Started B.E. CSE
+                </h3>
+
+                <p>
+                    Chandigarh University
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">
+                2025
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>
+                    Major Projects
+                </h3>
+
+                <p>
+                    Chat Application,
+                    Spotify Clone,
+                    Arduino Vehicle
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">
+                2027
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>
+                    Graduation
+                </h3>
+
+                <p>
+                    Computer Science Engineering
+                </p>
+
+            </div>
 
         </div>
 
@@ -117,39 +768,221 @@ rel="stylesheet">
 
 </section>
 
-<!-- STATS -->
+<!-- ========================= -->
+<!-- CERTIFICATIONS -->
+<!-- ========================= -->
 
-<section class="stats">
+<section class="certifications">
 
-    <div class="stat-card">
+    <div class="section-title">
 
-        <h3>8.63</h3>
-        <p>CGPA</p>
+        <span>
+            ACHIEVEMENTS
+        </span>
 
-    </div>
-
-    <div class="stat-card">
-
-        <h3>3+</h3>
-        <p>Major Projects</p>
-
-    </div>
-
-    <div class="stat-card">
-
-        <h3>4+</h3>
-        <p>Certifications</p>
+        <h2>
+            Certifications
+        </h2>
 
     </div>
 
-    <div class="stat-card">
+    <div class="certificate-grid">
 
-        <h3>2027</h3>
-        <p>Graduate</p>
+        <div class="certificate-card">
+
+            <h3>
+                Python Programming
+            </h3>
+
+            <p>
+                LinkedIn Learning
+            </p>
+
+        </div>
+
+        <div class="certificate-card">
+
+            <h3>
+                Introduction to SQL
+            </h3>
+
+            <p>
+                Coursera
+            </p>
+
+        </div>
+
+        <div class="certificate-card">
+
+            <h3>
+                Foundations of
+                Project Management
+            </h3>
+
+            <p>
+                Coursera
+            </p>
+
+        </div>
+
+        <div class="certificate-card">
+
+            <h3>
+                Microsoft Office
+                Fundamentals
+            </h3>
+
+            <p>
+                LinkedIn Learning
+            </p>
+
+        </div>
 
     </div>
 
 </section>
+
+<!-- NEXT SECTION -->
+
+<section
+id="contact"
+class="contact">
+<div class="section-title">
+
+    <span>
+        CONTACT
+    </span>
+
+    <h2>
+        Let's Build Something Great Together
+    </h2>
+
+</div>
+
+<div class="contact-container">
+
+    <div class="contact-card">
+
+        <i class="fa-solid fa-envelope"></i>
+
+        <h3>
+            Email
+        </h3>
+
+        <p>
+            aadityaanand2021@gmail.com
+        </p>
+
+    </div>
+
+    <div class="contact-card">
+
+        <i class="fa-brands fa-github"></i>
+
+        <h3>
+            GitHub
+        </h3>
+
+        <a
+        href="https://github.com/aaditya-anand-singh"
+        target="_blank">
+
+            github.com/aaditya-anand-singh
+
+        </a>
+
+    </div>
+
+    <div class="contact-card">
+
+        <i class="fa-brands fa-linkedin"></i>
+
+        <h3>
+            LinkedIn
+        </h3>
+
+        <a
+        href="https://www.linkedin.com/in/aaditya-anand-singh/"
+        target="_blank">
+
+            linkedin.com/in/aaditya-anand-singh
+
+        </a>
+
+    </div>
+
+</div>
+
+<div class="contact-cta">
+
+    <a
+    href="assets/resume.pdf"
+    download
+    class="primary-btn">
+
+        Download Resume
+
+    </a>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- FOOTER -->
+<!-- ========================= -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <h3>
+            Aaditya Anand
+        </h3>
+
+        <p>
+            Computer Science Engineer |
+            Full Stack Developer |
+            Problem Solver
+        </p>
+
+        <div class="footer-social">
+
+            <a
+            href="https://github.com/aaditya-anand-singh"
+            target="_blank">
+
+                <i class="fa-brands fa-github"></i>
+
+            </a>
+
+            <a
+            href="https://www.linkedin.com/in/aaditya-anand-singh/"
+            target="_blank">
+
+                <i class="fa-brands fa-linkedin"></i>
+
+            </a>
+
+            <a
+            href="mailto:aadityaanand2021@gmail.com">
+
+                <i class="fa-solid fa-envelope"></i>
+
+            </a>
+
+        </div>
+
+        <p class="copyright">
+
+            © 2026 Aaditya Anand.
+            All Rights Reserved.
+
+        </p>
+
+    </div>
+
+</footer>
 
 <script src="script.js"></script>
 
